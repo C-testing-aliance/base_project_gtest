@@ -19,7 +19,9 @@
 /* Typedef -------------------------------------------------------------------*/
 /* Constant ------------------------------------------------------------------*/
 /* Variable ------------------------------------------------------------------*/
+
 static credentials_t g_credentials = { 0 };
+
 /* Function Declaration ------------------------------------------------------*/
 
 cred_storage_ret_values cred_storage_save_credentials(const credentials_t* credentials)
